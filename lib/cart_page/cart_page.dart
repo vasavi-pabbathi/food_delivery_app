@@ -118,7 +118,7 @@ class _CartPageState extends State<CartPage> {
               setState(() {
                 for(int i = 0; i<cartData.length; i++){
                   for(int j = 0; j<cartData[i].quantity; j++){
-                    cost = cartData[j].quantity * cartData[j].price+cartData[i].quantity*cartData[i].price;
+                    cost = cartData[j].quantity * cartData[j].price;
 
                   }
                 }
