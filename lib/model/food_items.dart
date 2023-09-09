@@ -9,5 +9,6 @@ class FoodItemsModel {
   String toString() {
     return 'restaurant: image= $image, name= $name, ratings= $ratings, price=$price, quantity=$quantity';
 
+
   }
 }
